@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const mongoURL =
-  "mongodb+srv://FoodGo:08102003@cluster0.hrieiah.mongodb.net/FoodGo?retryWrites=true&w=majority";
-
+  "mongodb+srv://AyushmanGarg:08102003@cluster0.hrieiah.mongodb.net/FoodGo?retryWrites=true&w=majority";
+//mongodb+srv://<username>:<password>@cluster0.hrieiah.mongodb.net/?retryWrites=true&w=majority
 const mongoDB = async () => {
   await mongoose.connect(
     mongoURL,
