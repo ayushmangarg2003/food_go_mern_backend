@@ -21,4 +21,6 @@ app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
 
-app.listen(port , 'foodgomernbackend.onrender');
+app.listen(port , 'foodgomernbackend.onrender' , () => {
+console.log("Listening")
+});
